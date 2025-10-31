@@ -1,1 +1,2 @@
 # Manasa-and-Stones
+This C# program calculates all possible values of the last stone in a sequence of stones where each step can increase the value by either `a` or `b`. The `stones` function generates these values by combining the minimum and maximum increments across `n-1` steps, avoiding duplicates when `a` equals `b`. The `Main` method reads multiple test cases, calls the function for each, and prints the resulting sequences.
